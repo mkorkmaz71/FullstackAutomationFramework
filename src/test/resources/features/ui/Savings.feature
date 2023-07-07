@@ -6,7 +6,7 @@ Feature: Verify Savings Account Functionality
     When user enter "login.username" as username and "login.password" as password
     Then verify user is navigated to home page
     When user click on savings tab
-    And click on New Savings button
+    And click on new savings button
     Then verify new savings account page is displayed
     When user enters "s.type","s.ownership","s.name","s.openingBalance" as new savings account details
     And click on  new savings submit button

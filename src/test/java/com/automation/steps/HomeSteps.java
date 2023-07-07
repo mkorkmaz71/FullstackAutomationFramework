@@ -28,12 +28,12 @@ public class HomeSteps {
         homePage.clickCheckingTab();
     }
 
-    @And("click on New Checking button")
+    @And("click on new checking button")
     public void clickOnNewCheckingButton() {
         homePage.clickNewCheckingTab();
     }
 
-    @When("user click on Deposit tab")
+    @When("user click on deposit tab")
     public void userClickOnDepositTab() {
         homePage.clickDepositTab();
     }
@@ -43,12 +43,12 @@ public class HomeSteps {
         homePage.clickSavingsTab();
     }
 
-    @And("click on New Savings button")
+    @And("click on new savings button")
     public void clickOnNewSavingsButton() {
         homePage.clickNewSavingsTab();
     }
 
-    @When("user click on Transfer Between Accounts tab")
+    @When("user click on transfer between accounts tab")
     public void userClickOnTransferBetweenAccountsTab() {
         homePage.clickTransferBATab();
     }

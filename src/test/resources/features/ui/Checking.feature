@@ -6,7 +6,7 @@ Feature: Verify Checking Account Functionality
     When user enter "login.username" as username and "login.password" as password
     Then verify user is navigated to home page
     When user click on checking tab
-    And click on New Checking button
+    And click on new checking button
     Then verify new checking account page is displayed
     When user enters "c.type","c.ownership","c.name","c.openingBalance" as new checking account details
     And click on new checking submit button

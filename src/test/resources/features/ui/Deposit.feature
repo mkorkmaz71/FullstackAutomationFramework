@@ -5,7 +5,7 @@ Feature: Verify Depositing Functionality
     Given user open the website
     When user enter "login.username" as username and "login.password" as password
     Then verify user is navigated to home page
-    When user click on Deposit tab
+    When user click on deposit tab
     Then verify deposit page is displayed
     When user select "d.account.name" deposit account from the dropdown
     And enter the deposit "d.amount" as amount
